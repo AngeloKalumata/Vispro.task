@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Vispro.task
 {
-    public partial class Form1 : Form
+    public partial class frm2 : Form
     {
-        public Form1()
+        public frm2()
         {
             InitializeComponent();
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-
-            frm2 form2 = new frm2();
-            form2.ShowDialog();
         }
     }
 }
